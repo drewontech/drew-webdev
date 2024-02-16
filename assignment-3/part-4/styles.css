@@ -29,7 +29,7 @@ body {
     background-color: #000;
     padding: .5em;
     position: sticky;
-    top: 0
+    top: 0;
     z-index: 1000;
   }
   
@@ -52,9 +52,18 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1px;
   }
 
   .feature {
       width: 200px;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  article {
+    flex: 1;
   }
