@@ -1,5 +1,8 @@
 /* General setup */
-
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
 * {
   box-sizing: border-box;
 }
