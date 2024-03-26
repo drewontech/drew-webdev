@@ -77,7 +77,7 @@ draw() {
 const balls = [];
 
 while (balls.length < 1000) {
-  const size = random(1, 1);
+  const size = random(0.5, 1);
   const ball = new Ball(
     // ball position always drawn at least one ball width
     // away from the edge of the canvas, to avoid drawing errors
